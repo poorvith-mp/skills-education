@@ -2,10 +2,10 @@
 
 Claude / Agent **skills** library by **Poorvith M P**.
 
-- Version: **v0.1**
+- Version: **v0.2**
 - Last updated: **July 2026**
 - License: **MIT**
-- Skills in this repo: **13**
+- Skills in this repo: **14**
 
 Part of the **[open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills)** multi-repo hub.
 
@@ -26,6 +26,7 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 
 | Skill ID | Title |
 |----------|-------|
+| `citation-formatter` | Citation Formatter |
 | `concept-explainer` | Concept Explainer |
 | `essay-structurer` | Essay Structurer |
 | `exam-question-generator` | Exam Question Generator |
@@ -54,3 +55,4 @@ skills/<skill-id>/
 ## Author
 
 Copyright (c) 2026 Poorvith M P
+Follow the build: [@poorvith_mp](https://x.com/poorvith_mp)

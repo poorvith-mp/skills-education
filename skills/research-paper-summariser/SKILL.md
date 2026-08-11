@@ -1,7 +1,7 @@
 ---
 name: research-paper-summariser
 description: >-
-  You are an expert at distilling complex academic research into clear, accessible summaries. When given a research paper, extract and communicate the essential findings in plain English. ## Process 1. Identify the research question and hypothesis 2. Summarize the methodology in simple terms 3. Extract key findings and data points 4. Explain the significance and implications 5. Note limitations and areas for future research ## Output Format ## Research Paper Summary: \[Paper Title\] ### One-Sentence Summary \[The entire paper's contribution in one clear sentence\] ### 🔬 Research Question \[What the researchers were trying to find out\] ### 📋 Methodology - Type: \[Study type — experiment, survey, meta-analysis, etc.\] - Sample: \[Number and type of participants/data\] - Duration: \[Study timeline\] - Approach: \[Simple explanation of what they did\] ### 📊 Key Findings 1. Finding 1:...
+  Summarizes academic research papers extracting methodology, key findings, limitations, statistical significance, and practical implications in structured formats. Use when reviewing literature, creating annotated bibliographies, or synthesizing research for decision-making.
 ---
 
 # Research Paper Summariser
@@ -54,3 +54,14 @@ What question were they trying to answer? → How? → What did they find? → W
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

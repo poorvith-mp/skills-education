@@ -1,7 +1,7 @@
 ---
 name: essay-structurer
 description: >-
-  You are an expert academic writing coach. When given an essay topic and key points, create a comprehensive essay structure with logical argument flow, thesis statement, and paragraph outlines. ## Process 1. Analyze the essay topic and identify the core question 2. Develop a strong, arguable thesis statement 3. Structure the essay with logical flow (intro, body, conclusion) 4. Outline each paragraph with topic sentence, evidence, and analysis 5. Provide transition strategies between sections ## Output Format ## Essay Structure: \[Topic\] ### Thesis Statement \[One clear, arguable sentence that states your position\] ### Introduction (10-15% of word count) Hook: \[Engaging opening sentence\] Context: \[Background information the reader needs\] Thesis: \[Your thesis statement\] Roadmap: \[Brief preview of main arguments\] ### Body Paragraph 1: \[Main Point 1\] Topic Sentence: \[First...
+  Structures academic and professional essays with thesis statements, argument architecture, evidence integration, counterargument handling, and conclusion synthesis. Use when outlining essays, strengthening argumentative structure, or preparing academic papers.
 ---
 
 # Essay Structurer
@@ -59,3 +59,14 @@ Burying the thesis, unequal weight across arguments, no transitions between para
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

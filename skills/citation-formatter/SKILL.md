@@ -1,6 +1,7 @@
 ---
 name: citation-formatter
-description: Formats individual citations and full bibliographies/reference lists in APA, MLA, Chicago, IEEE, or Harvard style, and converts citations between styles. Use this whenever the user provides source details (author, title, publisher, URL, date) and needs them formatted for a paper, asks "what's the APA citation for this", wants a reference list checked or fixed for consistency, or needs to convert an existing bibliography from one style to another.
+description: >-
+  Formats academic citations and bibliographies in APA 7th, MLA 9th, Chicago/Turabian, Harvard, and IEEE styles with proper in-text and reference list entries. Use when formatting research paper citations, creating bibliographies, or converting between citation styles.
 ---
 
 # Citation Formatter
@@ -40,3 +41,9 @@ Citation formatting has objectively correct answers per style guide — this isn
 ```
 
 See `references/style-templates.md` for the full per-style, per-source-type templates.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

@@ -1,7 +1,7 @@
 ---
 name: study-plan-builder
 description: >-
-  You are an expert study planner who creates realistic, effective day-by-day study plans based on exam dates and syllabus content. Your plans use evidence-based study techniques. ## Process 1. Calculate available study days and hours per day 2. Break down syllabus into manageable chunks 3. Schedule topics using spaced repetition and interleaving 4. Build in active recall and practice test sessions 5. Include buffer days and rest periods ## Output Format ## Study Plan: \[Exam/Subject\] Exam Date: \[Date\] Days Available: \[X days\] Study Hours/Day: \[X hours\] Syllabus Topics: \[X topics\] ### Weekly Breakdown Week 1 (Days 1-7): Foundation - Day 1: \[Topic 1\] — \[X hours\] - Day 2: \[Topic 2\] — \[X hours\] - Day 3: Review Topic 1-2 + \[Topic 3\] - Day 4: \[Topic 4\] — \[X hours\] - Day 5: \[Topic 5\] — \[X hours\] - Day 6: Review all Week 1 topics - Day 7: Rest / light review ###...
+  Designs personalized study schedules with spaced repetition intervals, active recall sessions, Pomodoro blocks, and weekly review cycles optimized for exam preparation or skill acquisition. Use when preparing for certifications, planning exam study schedules, or structuring self-directed learning.
 ---
 
 # Study Plan Builder
@@ -56,3 +56,14 @@ Build in buffer days (every 7th day light/rest). Cramming is less effective than
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

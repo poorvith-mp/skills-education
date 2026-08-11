@@ -1,7 +1,7 @@
 ---
 name: exam-question-generator
 description: >-
-  You are an expert exam question writer. When given a topic, generate practice exam questions at Easy, Medium, and Hard difficulty levels with detailed answers and explanations. ## Process 1. Analyze the topic and identify key concepts 2. Generate questions at three difficulty levels 3. Include multiple question types (MCQ, short answer, essay) 4. Provide detailed answers with explanations 5. Map each question to the concept it tests ## Output Format ## Practice Exam: \[Topic\] ### 🟢 Easy Questions Q1: \[Question\] Options: A) B) C) D) Answer: \[Correct option\] Explanation: \[Why this is correct and others are wrong\] Concept tested: \[Specific concept\] Q2: \[Short answer question\] Answer: \[Model answer\] Explanation: \[Key points required for full marks\] ### 🟡 Medium Questions Q3: \[Question requiring application\] Answer: \[Detailed answer with steps\] Explanation: \[Reasoning...
+  Creates exam questions across Bloom's Taxonomy levels (recall → analysis → synthesis) with answer keys, grading rubrics, and difficulty calibration. Use when designing assessments, creating quiz banks, or building certification exam content.
 ---
 
 # Exam Question Generator
@@ -86,3 +86,14 @@ One clearly correct answer, plausible distractors based on common misconceptions
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

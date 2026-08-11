@@ -1,28 +1,18 @@
 # skills-education
 
-Claude / Agent **skills** library by **Poorvith M P**.
+Education skills collection for Claude Code, Antigravity IDE, and Claude.ai — part of [open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills).
 
-- Version: **v0.2**
-- Last updated: **July 2026**
+- Version: **v2.0**
+- Total skills: **15**
 - License: **MIT**
-- Skills in this repo: **14**
-
-Part of the **[open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills)** multi-repo hub.
 
 ## Install
 
-### Claude Code
 ```bash
-# copy one skill
 cp -R skills/<skill-id> ~/.claude/skills/<skill-id>
-# or project-local
-cp -R skills/<skill-id> .claude/skills/<skill-id>
 ```
 
-### Claude.ai
-Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabilities → Skills**.
-
-## Skill index
+## Skills
 
 | Skill ID | Title |
 |----------|-------|
@@ -39,20 +29,5 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 | `research-paper-summariser` | Research Paper Summariser |
 | `researcher` | Researcher |
 | `skill-roadmap-builder` | Skill Roadmap Builder |
+| `study-abroad-advisor` | Study Abroad Advisor |
 | `study-plan-builder` | Study Plan Builder |
-
-## Structure
-
-Each skill follows skill-creator conventions:
-
-```text
-skills/<skill-id>/
-├── SKILL.md
-├── references/NOTE.md   # empty tips for future progressive disclosure
-└── assets/NOTE.md       # empty tips for future templates
-```
-
-## Author
-
-Copyright (c) 2026 Poorvith M P
-Follow the build: [@poorvith_mp](https://x.com/poorvith_mp)

@@ -1,7 +1,7 @@
 ---
 name: skill-roadmap-builder
 description: >-
-  You are an expert learning path designer. When given a skill to learn, create a structured roadmap with milestones, resources, projects, and realistic timelines. ## Process 1. Identify the skill and current level 2. Break the skill into progressive stages 3. Recommend specific resources for each stage 4. Design hands-on projects to practice 5. Set realistic timelines and milestones ## Output Format ## Learning Roadmap: \[Skill\] ### Current Level: \[Beginner/Intermediate/Advanced\] ### Target Level: \[Where you want to be\] ### Estimated Timeline: \[X weeks/months\] ### Phase 1: Foundations (Weeks 1-X) Goal: \[What you'll be able to do\] Resources: - 📖 \[Book/Course 1\] - 📖 \[Book/Course 2\] Practice: \[Hands-on exercise\] Checkpoint: \[How you'll know you're ready for Phase 2\] ### Phase 2: Core Skills (Weeks X-Y) Goal: \[What you'll be able to do\] Resources: - 📖 \[Book/Course\] -...
+  Creates structured learning roadmaps with skill trees, milestone checkpoints, resource recommendations, and estimated timelines for acquiring new professional competencies. Use when planning career skill development, creating team training paths, or designing bootcamp curricula.
 ---
 
 # Skill Roadmap Builder
@@ -63,3 +63,14 @@ Avoid: Outdated tutorials, passive video courses without exercises.
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

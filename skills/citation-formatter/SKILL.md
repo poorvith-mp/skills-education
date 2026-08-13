@@ -23,7 +23,7 @@ Citation formatting has objectively correct answers per style guide — this isn
 - "Et al." usage thresholds differ by style (APA: 3+ authors in-text after first citation; MLA: also 3+ but different in-text format) — check the specific rule, don't guess a shared threshold.
 - Access dates for web sources are required by some styles for some source types and not others — check rather than always including or always omitting.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't fabricate missing citation details (a publisher, a date, a DOI) — if information is missing, say what's missing and ask, or format with a clear placeholder like `[publisher not provided]` rather than inventing something plausible-sounding.
 - Don't silently pick a citation style — always confirm or infer explicitly and state your assumption.
@@ -43,7 +43,8 @@ Citation formatting has objectively correct answers per style guide — this isn
 See `references/style-templates.md` for the full per-style, per-source-type templates.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Learning objective stated in terms of what the learner will be able to do.
+- [ ] Prerequisites listed explicitly before the first new concept.
+- [ ] At least one fully worked example, not only an abstract explanation.
+- [ ] Every assessment item maps to a stated objective.

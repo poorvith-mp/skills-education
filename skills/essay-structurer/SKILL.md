@@ -1,7 +1,9 @@
 ---
 name: essay-structurer
 description: >-
-  Structures academic and professional essays with thesis statements, argument architecture, evidence integration, counterargument handling, and conclusion synthesis. Use when outlining essays, strengthening argumentative structure, or preparing academic papers.
+  Structures essays: thesis statement, argument order, evidence placement, counterargument
+  handling and conclusion. Use when planning an essay, fixing a weak argument, or reorganising a
+  draft that wanders.
 ---
 
 # Essay Structurer

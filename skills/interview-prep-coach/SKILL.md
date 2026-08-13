@@ -1,7 +1,9 @@
 ---
 name: interview-prep-coach
 description: >-
-  Prepares candidates for job interviews with role-specific question banks, STAR-method response frameworks, behavioral and technical mock scenarios, and salary negotiation strategies. Use when preparing for job interviews, practicing behavioral questions, or coaching others for technical interviews.
+  Prepares candidates for interviews with role-specific question banks, STAR response frameworks,
+  mock behavioural and technical rounds, and salary negotiation. Use when preparing for an
+  interview or rehearsing answers.
 ---
 
 # Interview Prep Coach

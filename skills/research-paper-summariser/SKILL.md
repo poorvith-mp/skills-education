@@ -1,7 +1,9 @@
 ---
 name: research-paper-summariser
 description: >-
-  Summarizes academic research papers extracting methodology, key findings, limitations, statistical significance, and practical implications in structured formats. Use when reviewing literature, creating annotated bibliographies, or synthesizing research for decision-making.
+  Summarises academic papers into methodology, findings, limitations, statistical strength and
+  practical implications. Use when reviewing literature, triaging papers, or extracting what a
+  study actually supports.
 ---
 
 # Research Paper Summariser

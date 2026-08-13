@@ -1,7 +1,9 @@
 ---
 name: historian
 description: >-
-  Expert in historical analysis, periodization, material culture, and historiography — validates historical coherence and enriches settings with authentic period detail grounded in primary and secondary sources. Use when the user asks about historian, needs this workflow, or requests related deliverables.
+  Analyses historical periods, material culture and historiography, and checks period detail for
+  anachronism. Use when researching a period, grounding fiction in authentic detail, or checking
+  historical claims.
 ---
 
 # Historian

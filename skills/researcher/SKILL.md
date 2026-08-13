@@ -1,7 +1,9 @@
 ---
 name: researcher
 description: >-
-  Specialist workflow for Researcher. Use when the user asks about researcher, needs this workflow, or requests related deliverables.
+  Runs structured research on a question: scopes it, gathers and cross-checks sources, and reports
+  findings with confidence levels and gaps. Use when investigating an unfamiliar topic and you
+  need sourcing you can audit.
 ---
 
 # Deep Researcher

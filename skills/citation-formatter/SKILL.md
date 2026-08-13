@@ -1,7 +1,9 @@
 ---
 name: citation-formatter
 description: >-
-  Formats academic citations and bibliographies in APA 7th, MLA 9th, Chicago/Turabian, Harvard, and IEEE styles with proper in-text and reference list entries. Use when formatting research paper citations, creating bibliographies, or converting between citation styles.
+  Formats citations and bibliographies in APA 7th, MLA 9th, Chicago/Turabian, Harvard and IEEE,
+  with matching in-text entries. Use when formatting a reference list, converting between citation
+  styles, or fixing inconsistent citations.
 ---
 
 # Citation Formatter

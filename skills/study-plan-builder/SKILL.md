@@ -1,7 +1,9 @@
 ---
 name: study-plan-builder
 description: >-
-  Designs personalized study schedules with spaced repetition intervals, active recall sessions, Pomodoro blocks, and weekly review cycles optimized for exam preparation or skill acquisition. Use when preparing for certifications, planning exam study schedules, or structuring self-directed learning.
+  Designs study schedules with spaced repetition intervals, active recall sessions and weekly
+  review cycles. Use when preparing for an exam by a date. Not for choosing what to learn - use
+  skill-roadmap-builder.
 ---
 
 # Study Plan Builder

@@ -1,7 +1,9 @@
 ---
 name: skill-roadmap-builder
 description: >-
-  Creates structured learning roadmaps with skill trees, milestone checkpoints, resource recommendations, and estimated timelines for acquiring new professional competencies. Use when planning career skill development, creating team training paths, or designing bootcamp curricula.
+  Builds learning roadmaps with skill trees, milestone checkpoints, resources and time estimates.
+  Use when planning how to learn a discipline. Not for scheduling the sessions themselves - use
+  study-plan-builder.
 ---
 
 # Skill Roadmap Builder

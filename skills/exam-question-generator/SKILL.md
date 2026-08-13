@@ -1,7 +1,9 @@
 ---
 name: exam-question-generator
 description: >-
-  Creates exam questions across Bloom's Taxonomy levels (recall → analysis → synthesis) with answer keys, grading rubrics, and difficulty calibration. Use when designing assessments, creating quiz banks, or building certification exam content.
+  Writes exam questions across Bloom's levels with answer keys, grading rubrics and difficulty
+  calibration. Use when building an assessment, writing a question bank, or checking that
+  questions match the learning objectives.
 ---
 
 # Exam Question Generator

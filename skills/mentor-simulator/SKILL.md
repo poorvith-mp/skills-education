@@ -1,7 +1,9 @@
 ---
 name: mentor-simulator
 description: >-
-  Simulates mentorship conversations with Socratic questioning, reflective listening, and structured coaching frameworks (GROW model) for professional and personal development. Use when practicing coaching conversations, preparing for mentoring sessions, or exploring career decisions.
+  Runs a mentoring conversation using Socratic questioning and the GROW coaching model. Use when
+  you want to be questioned rather than answered, or when working through a career or professional
+  development problem.
 ---
 
 # Mentor Simulator

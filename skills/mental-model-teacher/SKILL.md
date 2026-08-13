@@ -1,7 +1,9 @@
 ---
 name: mental-model-teacher
 description: >-
-  Teaches and applies mental models (First Principles, Inversion, Second-Order Thinking, Circle of Competence, Occam's Razor) to real-world decision-making scenarios. Use when learning new mental models, applying frameworks to complex decisions, or teaching critical thinking.
+  Teaches and applies mental models - first principles, inversion, second-order thinking, circle
+  of competence - to a real decision. Use when stuck on a decision or learning a thinking
+  framework. Not for process design - use decision-framework.
 ---
 
 # Mental Model Teacher

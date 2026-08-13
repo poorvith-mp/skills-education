@@ -1,7 +1,9 @@
 ---
 name: flashcard-generator
 description: >-
-  Creates spaced-repetition flashcards with optimal question framing, minimal information principle, and interleaved topic distribution for efficient memorization. Use when studying for exams, learning vocabulary, or creating Anki/Quizlet decks for any subject.
+  Creates spaced-repetition flashcards using minimal-information framing and interleaved topics.
+  Use when turning notes into Anki cards or preparing recall practice. Not for scheduling study
+  time - use study-plan-builder.
 ---
 
 # Flashcard Generator

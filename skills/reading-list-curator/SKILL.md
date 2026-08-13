@@ -1,7 +1,9 @@
 ---
 name: reading-list-curator
 description: >-
-  Curates targeted reading lists with book summaries, key takeaway previews, difficulty ratings, and suggested reading sequences for any topic or skill area. Use when building domain expertise reading plans, recommending books for teams, or creating structured learning curricula.
+  Builds reading lists with summaries, key takeaways, difficulty ratings and a suggested order.
+  Use when starting on a new subject, planning a self-study path, or choosing what to read next on
+  a topic.
 ---
 
 # Reading List Curator

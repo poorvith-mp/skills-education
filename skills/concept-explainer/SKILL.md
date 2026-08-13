@@ -1,7 +1,9 @@
 ---
 name: concept-explainer
 description: >-
-  Breaks down complex concepts into clear, layered explanations using analogies, visual metaphors, and progressive complexity (ELI5 → intermediate → expert). Use when explaining technical concepts to non-experts, creating educational content, or simplifying jargon-heavy topics.
+  Explains a complex concept in layers - ELI5, then intermediate, then expert - using analogies
+  and worked examples. Use when explaining something technical to a non-expert or unpacking
+  jargon. Not for course design - use corporate-training-designer.
 ---
 
 # Concept Explainer

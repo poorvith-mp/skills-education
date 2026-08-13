@@ -1,0 +1,19 @@
+{
+  "name": "skills-education",
+  "displayName": "Education Skills",
+  "version": "1.0.0",
+  "description": "15 education skills. Teaching, learning design, study systems, research and academic writing.",
+  "author": {
+    "name": "Poorvith M P",
+    "url": "https://github.com/prvthmpcypher"
+  },
+  "homepage": "https://github.com/prvthmpcypher/skillary",
+  "repository": "https://github.com/prvthmpcypher/skills-education",
+  "license": "MIT",
+  "keywords": [
+    "education",
+    "learning",
+    "research",
+    "agent-skills"
+  ]
+}

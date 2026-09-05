@@ -1,33 +1,53 @@
 # skills-education
 
-Education skills collection for Claude Code, Antigravity IDE, and Claude.ai — part of [skillary](https://github.com/poorvith-mp/skillary).
+Education skills collection for Claude Code, Cursor, Codex, Gemini CLI, and `npx skills` — part of [Skillary](https://github.com/poorvith-mp/skillary) by [Poorvith M P](https://github.com/poorvith-mp).
 
-- Version: **v2.0**
-- Total skills: **15**
-- License: **MIT**
+- **Version**: `v3.0.0`
+- **Total Skills**: `15`
+- **License**: MIT
+- **Hub Repository**: [poorvith-mp/skillary](https://github.com/poorvith-mp/skillary)
 
 ## Install
 
+Install the entire collection via `npx skills`:
 ```bash
-cp -R skills/<skill-id> ~/.claude/skills/<skill-id>
+npx skills add poorvith-mp/skills-education
 ```
 
-## Skills
+Or install individual skills directly:
+```bash
+npx skills add poorvith-mp/skills-education --skill <skill-id>
+```
 
-| Skill ID | Title |
-|----------|-------|
-| `citation-formatter` | Citation Formatter |
-| `concept-explainer` | Concept Explainer |
-| `essay-structurer` | Essay Structurer |
-| `exam-question-generator` | Exam Question Generator |
-| `flashcard-generator` | Flashcard Generator |
-| `historian` | Historian |
-| `interview-prep-coach` | Interview Prep Coach |
-| `mental-model-teacher` | Mental Model Teacher |
-| `mentor-simulator` | Mentor Simulator |
-| `reading-list-curator` | Reading List Curator |
-| `research-paper-summariser` | Research Paper Summariser |
-| `researcher` | Researcher |
-| `skill-roadmap-builder` | Skill Roadmap Builder |
-| `study-abroad-advisor` | Study Abroad Advisor |
-| `study-plan-builder` | Study Plan Builder |
+For Claude Code plugin marketplace:
+```bash
+/plugin install poorvith-mp/education
+```
+
+## Skills in this Collection
+
+| Skill ID | Title | Description |
+|:---------|:------|:------------|
+| `citation-formatter` | [Citation Formatter](skills/citation-formatter/SKILL.md) | >- |
+| `concept-explainer` | [Concept Explainer](skills/concept-explainer/SKILL.md) | >- |
+| `essay-structurer` | [Essay Structurer](skills/essay-structurer/SKILL.md) | >- |
+| `exam-question-generator` | [Exam Question Generator](skills/exam-question-generator/SKILL.md) | >- |
+| `flashcard-generator` | [Flashcard Generator](skills/flashcard-generator/SKILL.md) | >- |
+| `historian` | [Historian](skills/historian/SKILL.md) | >- |
+| `interview-prep-coach` | [Interview Prep Coach](skills/interview-prep-coach/SKILL.md) | >- |
+| `mental-model-teacher` | [Mental Model Teacher](skills/mental-model-teacher/SKILL.md) | >- |
+| `mentor-simulator` | [Mentor Simulator](skills/mentor-simulator/SKILL.md) | >- |
+| `reading-list-curator` | [Reading List Curator](skills/reading-list-curator/SKILL.md) | >- |
+| `research-paper-summariser` | [Research Paper Summariser](skills/research-paper-summariser/SKILL.md) | >- |
+| `researcher` | [Deep Researcher](skills/researcher/SKILL.md) | >- |
+| `skill-roadmap-builder` | [Skill Roadmap Builder](skills/skill-roadmap-builder/SKILL.md) | >- |
+| `study-abroad-advisor` | [Study Abroad Advisor](skills/study-abroad-advisor/SKILL.md) | >- |
+| `study-plan-builder` | [Study Plan Builder](skills/study-plan-builder/SKILL.md) | >- |
+
+## Author & Maintenance
+
+Authored and curated by **[Poorvith M P](https://github.com/poorvith-mp)** as part of the [Skillary](https://github.com/poorvith-mp/skillary) modular skills architecture.
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.

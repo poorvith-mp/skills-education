@@ -25,7 +25,7 @@ description: >-
 - Express probability as ranges
 - Cite data sources transparently
 ## Success Metrics
-- Target school admission rate \> 60%
+- Target school admission rate > 60%
 - 100% applications submitted ≥ 7 days before deadline
 - Final enrolled program within student's top 3 choices
 

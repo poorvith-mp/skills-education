@@ -5,60 +5,99 @@ description: >-
   Design enterprise training: needs analysis, curriculum structure, blended delivery and
   evaluation. Use when developing corporate workshops, course modules, or adult learning.
 ---
-# Training Design
 
-Design enterprise training: needs analysis, curriculum structure, blended delivery and evaluation..
+# training-design
 
-## Process
+## Core Philosophy
+Corporate and enterprise training programs fail when they are treated as performative "edutainment": subjecting employees to 4-hour slide presentations where participants passively nod, eat catered lunches, fill out a polite survey, and immediately return to their desks without changing a single work behavior. Professional training design is an exercise in **behavioral and systems engineering**: applying the **ADDIE model** and **Kirkpatrick's Four Levels of Evaluation** to translate business performance bottlenecks into measurable learning objectives, experiential practice simulations, and quantifiable business ROI.
 
-1. **Intake & Scope Definition**
-   - Identify specific objectives, inputs, constraints, and operational context.
-   - Inspect existing project documentation, configurations, or relevant repository assets.
+---
 
-2. **Analysis & Strategic Formulation**
-   - Evaluate options against best practices, security posture, and domain requirements.
-   - Deconstruct complex components into discrete, actionable phases.
+## 4-Step Enterprise Training Architecture
 
-3. **Execution & Synthesis**
-   - Produce structured, production-grade deliverables matching the required format.
-   - Ground all recommendations in concrete project evidence rather than abstract generalities.
+### Step 1: Training Needs Analysis (TNA) & Gap Math
+1. **The Performance Gap Formula**:
+   $$\text{Performance Gap} = \text{Target Operational Standard} - \text{Current Metric}$$
+   - *Example*: Production outages caused by unauthorized database schema migrations are at 4/month; target standard is 0/month.
+2. **Is Training the Right Solution? (Mager & Pipe Model)**:
+   - Ask: *"Could the employees perform the task if their lives depended on it?"*
+   - If YES $\to$ The problem is not a skill deficiency; it is an incentive, tooling, or cultural bottleneck (do NOT build training).
+   - If NO $\to$ Build targeted training.
 
-4. **Review & Refinement**
-   - Validate against the verification checklist and domain edge cases.
-   - Highlight open questions, explicit trade-offs, and next milestones.
+### Step 2: Curriculum Architecture (ADDIE Framework)
+1. **Analysis**: Profile learner technical baselines, constraints, and operational context.
+2. **Design**: Establish Bloom-aligned terminal learning objectives (TLOs):
+   - *Formula*: *"Given [Condition], the learner will [Measurable Action] according to [Performance Standard]."*
+3. **Development**: Build 80% hands-on experiential lab exercises and 20% framing lecture.
+4. **Implementation**: Deliver via blended delivery (asynchronous pre-work sandbox + synchronous live workshop).
+5. **Evaluation**: Measure behavioral change and business impact.
 
-## Deliverable & Output Format
+### Step 3: Kirkpatrick's 4 Levels of Training Evaluation
+1. **Level 1: Reaction (Smile Sheets)**:
+   - Did learners find the training relevant and engaging? (Target: $\ge 85\%$ positive sentiment).
+2. **Level 2: Learning (Knowledge Acquisition)**:
+   - Did learners acquire the knowledge/skills? Measured via pre-test vs post-test diagnostic assessments.
+3. **Level 3: Behavior (Application on the Job)**:
+   - Are employees applying the new skill in their daily workflow 30-60 days post-training? (Audited via peer review and telemetry).
+4. **Level 4: Results (Business ROI)**:
+   $$\text{Training ROI} = \frac{\text{Net Financial Benefits} - \text{Total Training Costs}}{\text{Total Training Costs}} \times 100$$
+   - Reductions in production incident downtime, support ticket volume, or customer churn.
 
-### 📋 Executive Summary
-- **Objective:** Key goal addressed
-- **Status:** Complete / Action Required
-- **Primary Recommendation:** Core actionable conclusion
+### Step 4: Blended Delivery & Simulation Labs
+1. **The 70-20-10 Learning Framework**:
+   - 10% Formal Coursework (Live conceptual lectures).
+   - 20% Social Learning (Peer code reviews, group debugging sessions).
+   - 70% Experiential Learning (Live sandbox environment breaks and real-world disaster simulations).
 
-### 🛠️ Detailed Implementation / Analysis
-- Concrete technical, operational, or strategic specifications.
-- Clear code, configuration, or documentation blocks where applicable.
+---
 
-### 📌 Decisions & Next Steps
-- [ ] Immediate action items with designated owners.
-- [ ] Required dependencies or prerequisite milestones.
+## Deliverable Format: Enterprise Training Curriculum Blueprint
 
-## Instructions & Operating Rules
+```markdown
+# Training Blueprint: Production Cloud Incident Triage & Reliability Engineering
+- **Target Audience**: 120 Backend Software Engineers
+- **Business Target**: Reduce Mean Time to Resolution (MTTR) for Tier 1 incidents from 45 min to 15 min.
 
-- Lead directly with actionable findings and structured results.
-- Never introduce speculative abstractions or unrequested complexity.
-- Maintain consistency with existing architecture and naming conventions.
-- Provide explicit rationales for non-obvious trade-offs.
+### Modular Curriculum Schedule:
 
-## Verification & Quality Checklist
+| Module | Delivery Mode | Duration | Learning Objective & Hands-On Deliverable |
+|---|---|---|---|
+| **Module 1: Telemetry & Tracing** | Async Sandbox | 2 Hours | Instrument an un-traced microservice with OpenTelemetry distributed trace spans. |
+| **Module 2: Chaos Engineering** | Synchronous Lab | 4 Hours | Given an active simulated memory leak and network partition, diagnose root cause within 15 minutes using Grafana/Prometheus. |
+| **Module 3: Runbook Automation** | Synchronous Lab | 3 Hours | Write and execute an automated rollback runbook that resolves a split-brain Redis cluster without human data loss. |
+| **Module 4: Post-Mortem Facilitation** | Peer Workshop | 2 Hours | Author a blameless post-mortem for a simulated Sev-1 incident adhering to company SLA standards. |
 
-- [ ] Deliverable directly satisfies all stated user requirements and criteria.
-- [ ] Edge cases, boundary conditions, and error states are addressed.
-- [ ] Output contains zero placeholder tokens, broken references, or unverified claims.
-- [ ] All cross-references and formatting comply with repository conventions.
+### Evaluation Architecture:
+- **Level 2**: Mandatory sandbox qualification exam (Must score $\ge 85\%$ on incident resolution).
+- **Level 3**: 60-day telemetry audit of incident triage logs.
+- **Level 4**: Track company MTTR across Q3 and Q4.
+```
 
-## Anti-Patterns & Constraints
+---
 
-- **NEVER** output generic boilerplate without grounding in specific project inputs.
-- **NEVER** silently omit unresolved contradictions or unverified assumptions.
-- **NEVER** make unrequested modifications outside the stated deliverable boundary.
+## Worked Example: Slashing Phishing Susceptibility via Behavioral Simulation
 
+- **Problem**: A Fortune 500 company suffered a 28% failure rate on enterprise phishing simulation tests despite mandating a yearly 45-minute slide-based compliance video.
+- **Intervention**:
+  1. Scrapped the generic 45-minute annual video.
+  2. Implemented the ADDIE model: deployed simulated, context-specific phishing emails directly to employee inboxes.
+  3. Clicking a simulated link immediately routed the employee to a 2-minute micro-training highlighting the exact specific visual tells (spoofed domain, urgent emotional tone) in the email they had just clicked.
+- **Outcome**: Phishing susceptibility plummeted from 28% to 1.8% within 90 days.
+
+---
+
+## Verification Checklist
+
+- [ ] Training Needs Analysis confirms the bottleneck is a genuine skill deficiency, not tooling or incentives.
+- [ ] Learning objectives formulated with observable, measurable behavioral verbs.
+- [ ] Minimum 70% of synchronous time dedicated to hands-on simulated exercises.
+- [ ] Evaluation strategy covers Kirkpatrick Levels 2, 3, and 4 (not just smile sheets).
+- [ ] Pre-work and post-training reinforcement workflows established.
+
+---
+
+## Anti-Patterns
+
+- **Death by PowerPoint**: Lecturing adults for 6 hours straight without providing hands-on exercises or active participation.
+- **Stopping at Level 1 Evaluation**: Measuring training success solely by whether participants liked the instructor and lunch on the post-course survey.
+- **Training as a Band-Aid for Bad Systems**: Mandating training for employees because software tooling is confusing, broken, or misconfigured.

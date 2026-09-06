@@ -1,0 +1,7 @@
+should_fire:
+  - "help with source evaluation"
+  - "judge whether a source can carry the claim"
+  - "run source-evaluation workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

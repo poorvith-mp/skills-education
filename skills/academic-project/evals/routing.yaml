@@ -1,0 +1,7 @@
+should_fire:
+  - "help with academic project"
+  - "plan a thesis, capstone or major assignment"
+  - "run academic-project workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

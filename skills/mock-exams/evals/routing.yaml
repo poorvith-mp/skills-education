@@ -1,0 +1,7 @@
+should_fire:
+  - "help with mock exams"
+  - "build and sit a full-length timed paper under real conditions, then diagnose exactly where the marks went."
+  - "run mock-exams workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

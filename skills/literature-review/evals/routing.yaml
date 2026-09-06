@@ -1,0 +1,7 @@
+should_fire:
+  - "help with literature review"
+  - "synthesise many papers into themes, contradictions, methodological quality and open questions."
+  - "run literature-review workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

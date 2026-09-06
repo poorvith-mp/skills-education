@@ -1,0 +1,7 @@
+should_fire:
+  - "help with flashcards"
+  - "create spaced-repetition cards using minimal-information framing and interleaved topics."
+  - "run flashcards workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

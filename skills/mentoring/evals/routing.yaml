@@ -1,0 +1,7 @@
+should_fire:
+  - "help with mentoring"
+  - "run a mentoring conversation using socratic questioning and the grow model, asking rather than telling."
+  - "run mentoring workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

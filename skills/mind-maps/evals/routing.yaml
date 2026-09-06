@@ -1,0 +1,7 @@
+should_fire:
+  - "help with mind maps"
+  - "map a topic visually"
+  - "run mind-maps workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with assessment design"
+  - "build the assessment"
+  - "run assessment-design workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

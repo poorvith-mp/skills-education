@@ -1,0 +1,7 @@
+should_fire:
+  - "help with exam strategy"
+  - "pace the paper, triage questions by marks-per-minute, exploit the marking scheme, and decide when to guess."
+  - "run exam-strategy workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

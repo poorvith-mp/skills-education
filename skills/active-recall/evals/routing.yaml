@@ -1,0 +1,7 @@
+should_fire:
+  - "help with active recall"
+  - "weave retrieval checks into ordinary conversation"
+  - "run active-recall workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

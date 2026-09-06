@@ -1,0 +1,7 @@
+should_fire:
+  - "help with topic selection"
+  - "turn a broad interest into a tractable research question or essay topic with defensible scope and available sources."
+  - "run topic-selection workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with paper summary"
+  - "summarise a paper into methodology, findings, limitations, statistical strength and practical implications."
+  - "run paper-summary workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

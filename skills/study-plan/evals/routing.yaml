@@ -1,0 +1,7 @@
+should_fire:
+  - "help with study plan"
+  - "design the schedule"
+  - "run study-plan workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

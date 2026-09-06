@@ -1,0 +1,7 @@
+should_fire:
+  - "help with citations"
+  - "format citations and bibliographies in apa, mla, chicago, harvard and ieee with matching in-text forms."
+  - "run citations workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

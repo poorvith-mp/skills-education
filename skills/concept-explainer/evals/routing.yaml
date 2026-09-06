@@ -1,0 +1,7 @@
+should_fire:
+  - "help with concept explainer"
+  - "explain a concept in layers — eli5, then intermediate, then expert — with analogies and worked examples."
+  - "run concept-explainer workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with learning roadmap"
+  - "build the roadmap"
+  - "run learning-roadmap workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

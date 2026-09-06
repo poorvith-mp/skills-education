@@ -1,7 +1,16 @@
 should_fire:
-  - "help with academic project"
-  - "plan a thesis, capstone or major assignment"
-  - "run academic-project workflow"
+  - 'create a milestone schedule and work breakdown structure for a 9-month Master''s dissertation'
+  - 'plan the phases of an engineering capstone project: proposal, design, build, test, presentation'
+  - 'manage academic advisor expectations and structure productive thesis progress meetings'
+  - 'identify project risks and technical dependencies that could delay graduation deadlines'
+  - 'structure a formal dissertation proposal document including literature review and methodology'
+  - 'track deliverables, data collection timelines, and writing deadlines for a research grant'
+  - 'prepare defense presentation slides and anticipate difficult questions from a thesis committee'
+  - 'recover a delayed academic capstone project by de-scoping non-essential features'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'narrow down and choose a research question or thesis topic'
+    expect: 'topic-selection'
+  - prompt: 'design experimental sampling and quantitative research methodologies'
+    expect: 'research-methods'
+  - prompt: 'manage commercial corporate software engineering sprints'
+    expect: 'project-planning'

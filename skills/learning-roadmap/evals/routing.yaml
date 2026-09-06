@@ -1,7 +1,16 @@
 should_fire:
-  - "help with learning roadmap"
-  - "build the roadmap"
-  - "run learning-roadmap workflow"
+  - 'create a structured 6-month roadmap to learn distributed systems engineering'
+  - 'build a step-by-step curriculum to go from Python basics to machine learning engineer'
+  - 'what is the recommended progression path for learning Kubernetes and cloud infrastructure'
+  - 'map out prerequisites, core topics, and milestone projects for learning Rust'
+  - 'design a personalized self-study roadmap to master full-stack web development'
+  - 'break down learning cryptography into foundational, intermediate, and advanced phases'
+  - 'how should I sequence learning algorithms, data structures, and system design'
+  - 'create a learning curriculum for an experienced frontend engineer transitioning to backend'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'create a daily timetable and study session calendar for this week'
+    expect: 'study-plan'
+  - prompt: 'explain a complex technical concept using simple analogies'
+    expect: 'concept-explainer'
+  - prompt: 'design corporate employee onboarding and training programs'
+    expect: 'training-design'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with mock exams"
-  - "build and sit a full-length timed paper under real conditions, then diagnose exactly where the marks went."
-  - "run mock-exams workflow"
+  - 'build a full-length 65-question mock exam simulating the AWS Certified Cloud Practitioner test'
+  - 'create a realistic practice exam for AP Computer Science with multiple-choice and free-response'
+  - 'generate an end-of-term mock final exam covering all 12 weeks of general chemistry'
+  - 'provide a complete scoring guide and detailed rationale for every answer on this practice test'
+  - 'structure a timed mock test that matches the exact difficulty and question breakdown of the real exam'
+  - 'create free-response coding problems with sample solutions and edge case test cases'
+  - 'design a practice exam with sections calibrated to specific time limits'
+  - 'compile diagnostic score reports showing which topic areas a student missed on a mock exam'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'generate a quick 5-question multiple-choice quiz'
+    expect: 'quizzes'
+  - prompt: 'master pacing, elimination, and guessing strategies for test day'
+    expect: 'exam-strategy'
+  - prompt: 'design course grading rubrics and performance standards'
+    expect: 'assessment-design'

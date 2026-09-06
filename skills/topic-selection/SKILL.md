@@ -1,7 +1,9 @@
 ---
 name: topic-selection
+group: Teaching and planning
 description: >-
-  Turn a broad interest into a tractable research question or essay topic with defensible scope and available sources.
+  Turn a broad interest into a tractable research question or essay topic with defensible scope
+  and available sources. Use when narrowing research questions, thesis scopes, or project ideas.
 ---
 # Topic Selection
 

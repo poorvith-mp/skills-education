@@ -1,7 +1,9 @@
 ---
 name: citations
+group: Research
 description: >-
-  Format citations and bibliographies in APA, MLA, Chicago, Harvard and IEEE with matching in-text forms.
+  Format citations and bibliographies in APA, MLA, Chicago, Harvard and IEEE with matching in-text
+  forms. Use when formatting bibliographies in APA, MLA, Chicago, IEEE, or BibTeX.
 ---
 # Citations
 

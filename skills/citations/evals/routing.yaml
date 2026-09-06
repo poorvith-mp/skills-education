@@ -1,7 +1,16 @@
 should_fire:
-  - "help with citations"
-  - "format citations and bibliographies in apa, mla, chicago, harvard and ieee with matching in-text forms."
-  - "run citations workflow"
+  - 'format these 15 references into clean APA 7th edition bibliography citations'
+  - 'convert this list of book and journal sources into BibTeX entries for LaTeX'
+  - 'format in-text citations and reference list according to the Chicago Manual of Style'
+  - 'how to cite a YouTube video, tweet, or unpublished dataset in MLA 9th edition'
+  - 'standardize citations according to IEEE standards for an engineering conference paper'
+  - 'fix formatting errors in this Harvard style bibliography: italics, commas, and volume numbers'
+  - 'generate accurate citations including DOI links and retrieved dates'
+  - 'convert references between APA, MLA, and Chicago citation styles seamlessly'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'evaluate whether a cited source is trustworthy and methodologically sound'
+    expect: 'source-evaluation'
+  - prompt: 'write a synthesis of academic studies in a literature review'
+    expect: 'literature-review'
+  - prompt: 'draft the body paragraphs of an academic research essay'
+    expect: 'essay-structure'

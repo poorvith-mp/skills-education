@@ -1,7 +1,10 @@
 ---
 name: assessment-design
+group: Assessment
 description: >-
-  Build the assessment: questions across Bloom's levels, answer keys, grading rubrics and difficulty calibration.
+  Build the assessment: questions across Bloom's levels, answer keys, grading rubrics and
+  difficulty calibration. Use when developing grading rubrics, Bloom's taxonomy tests, or
+  evaluation.
 ---
 # Assessment Design
 

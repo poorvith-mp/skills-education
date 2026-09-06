@@ -1,7 +1,16 @@
 should_fire:
-  - "help with mentoring"
-  - "run a mentoring conversation using socratic questioning and the grow model, asking rather than telling."
-  - "run mentoring workflow"
+  - 'structure an effective 1-on-1 mentorship session with a junior software engineer'
+  - 'how should a mentor guide a mentee who is struggling with imposter syndrome'
+  - 'set up actionable quarterly growth goals and milestones for a mentee'
+  - 'provide constructive guidance on career progression from mid-level to senior engineer'
+  - 'help a mentee navigate workplace politics and cross-team communication challenges'
+  - 'design reflection prompts for a mentee to assess their technical strengths and gaps'
+  - 'structure a reverse-mentoring program where senior executives learn from junior staff'
+  - 'guide a mentee through evaluating two competing tech job offers'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write a formal employee performance review document'
+    expect: 'feedback-writing'
+  - prompt: 'resolve co-founder interpersonal conflict and team dynamics'
+    expect: 'team-dynamics'
+  - prompt: 'conduct mock interview practice sessions'
+    expect: 'interview-prep'

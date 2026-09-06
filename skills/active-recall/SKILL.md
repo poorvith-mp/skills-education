@@ -1,7 +1,9 @@
 ---
 name: active-recall
+group: Learning
 description: >-
-  Weave retrieval checks into ordinary conversation: resurface earlier material unprompted at spaced intervals and track what has decayed.
+  Weave retrieval checks into dialogue: resurface earlier material unprompted and track decay. Use
+  when testing retention via Socratic active recall.
 ---
 # Active Recall
 

@@ -1,7 +1,9 @@
 ---
 name: exam-strategy
+group: Assessment
 description: >-
-  Pace the paper, triage questions by marks-per-minute, exploit the marking scheme, and decide when to guess.
+  Pace the paper, triage questions by marks-per-minute, exploit the marking scheme, and decide
+  when to guess. Use when mastering test pacing, elimination tactics, or time allocation.
 ---
 # Exam Strategy
 

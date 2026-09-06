@@ -1,7 +1,16 @@
 should_fire:
-  - "help with quizzes"
-  - "generate scored practice quizzes from your own material, with an explanation for every wrong answer."
-  - "run quizzes workflow"
+  - 'generate 10 high-quality multiple-choice questions on Python object-oriented programming'
+  - 'create plausible distractors that diagnose specific common student misconceptions'
+  - 'write multiple-choice quiz questions that test deep conceptual application, not rote memory'
+  - 'create a short 5-question comprehension quiz based on this biology reading excerpt'
+  - 'generate interactive trivia questions with detailed explanations for correct answers'
+  - 'write fill-in-the-blank and matching quiz questions for a chemistry vocabulary check'
+  - 'avoid ''all of the above'' and grammatical giveaways in multiple-choice question design'
+  - 'create a diagnostic multiple-choice quiz to test foundational knowledge of calculus'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build an entire timed mock certification exam with full scoring'
+    expect: 'mock-exams'
+  - prompt: 'design comprehensive course grading rubrics and evaluation frameworks'
+    expect: 'assessment-design'
+  - prompt: 'test my knowledge interactively in chat through active recall'
+    expect: 'active-recall'

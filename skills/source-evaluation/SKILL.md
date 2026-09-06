@@ -1,7 +1,9 @@
 ---
 name: source-evaluation
+group: Research
 description: >-
-  Judge whether a source can carry the claim: primary versus secondary, funding, method quality, replication, and how to weigh disagreement.
+  Judge whether sources carry claims: primary vs secondary, funding, method quality, and
+  replication. Use when auditing source credibility or methodology.
 ---
 # Source Evaluation
 

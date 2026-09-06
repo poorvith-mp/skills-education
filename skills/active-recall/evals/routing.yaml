@@ -1,7 +1,16 @@
 should_fire:
-  - "help with active recall"
-  - "weave retrieval checks into ordinary conversation"
-  - "run active-recall workflow"
+  - 'test my knowledge on database isolation levels by asking me challenging questions'
+  - 'quiz me interactively on how DNS resolution works and correct my gaps'
+  - 'use the Socratic method to test my understanding of neural network backpropagation'
+  - 'give me a scenario and ask me to diagnose the concurrency bug from memory'
+  - 'grill me on cardiovascular anatomy concepts to see what I have forgotten'
+  - 'run a retrieval practice session covering the concepts we discussed yesterday'
+  - 'ask me one question at a time about distributed consensus and evaluate my answers'
+  - 'test whether I truly understand public-key cryptography or just memorized terms'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'generate static flashcards formatted for Anki export'
+    expect: 'flashcards'
+  - prompt: 'generate a formal graded multiple-choice exam'
+    expect: 'mock-exams'
+  - prompt: 'explain a concept to me from scratch with examples'
+    expect: 'concept-explainer'

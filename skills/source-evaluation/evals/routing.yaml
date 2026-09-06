@@ -1,7 +1,16 @@
 should_fire:
-  - "help with source evaluation"
-  - "judge whether a source can carry the claim"
-  - "run source-evaluation workflow"
+  - 'evaluate whether this published study has sufficient statistical power to justify its claims'
+  - 'audit this industry whitepaper for potential corporate sponsor bias and cherry-picked data'
+  - 'determine if this medical claim is supported by peer-reviewed randomized controlled trials'
+  - 'evaluate the methodology of this opinion poll: sample size, weighting, and margin of error'
+  - 'distinguish between primary empirical findings and secondary journalistic misinterpretations'
+  - 'check whether an author''s conclusions have been replicated or disputed by subsequent studies'
+  - 'assess the credibility, peer-review status, and citation impact of this journal'
+  - 'how to evaluate whether an online source is an authoritative domain expert or a content farm'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'synthesize multiple studies into a formal literature review'
+    expect: 'literature-review'
+  - prompt: 'summarize the key findings of an academic research paper'
+    expect: 'paper-summary'
+  - prompt: 'conduct an overarching factual investigation across multiple sources'
+    expect: 'research'

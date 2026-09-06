@@ -1,7 +1,9 @@
 ---
 name: learning-roadmap
+group: Learning
 description: >-
-  Build the roadmap: skill tree, milestone checkpoints, ordered reading with difficulty ratings, and time estimates.
+  Build the roadmap: skill tree, milestone checkpoints, ordered reading with difficulty ratings,
+  and time estimates. Use when planning structured skill acquisition from beginner to mastery.
 ---
 # Learning Roadmap
 

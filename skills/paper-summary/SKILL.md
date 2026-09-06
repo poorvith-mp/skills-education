@@ -1,7 +1,9 @@
 ---
 name: paper-summary
+group: Research
 description: >-
-  Summarise a paper into methodology, findings, limitations, statistical strength and practical implications.
+  Summarise a paper into methodology, findings, limitations, statistical strength and practical
+  implications. Use when distilling academic papers into findings, methods, and limitations.
 ---
 # Paper Summary
 

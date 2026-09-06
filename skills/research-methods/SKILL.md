@@ -1,7 +1,10 @@
 ---
 name: research-methods
+group: Research
 description: >-
-  Design the study itself: question framing, method choice, sampling, controls and which statistics actually fit.
+  Design the study itself: question framing, method choice, sampling, controls and which
+  statistics actually fit. Use when designing qualitative, quantitative, or experimental research
+  methods.
 ---
 # Research Methods
 

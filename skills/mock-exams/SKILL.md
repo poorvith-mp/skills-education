@@ -1,7 +1,9 @@
 ---
 name: mock-exams
+group: Assessment
 description: >-
-  Build and sit a full-length timed paper under real conditions, then diagnose exactly where the marks went.
+  Build and sit a full-length timed paper under real conditions, then diagnose exactly where the
+  marks went. Use when creating full-length practice exams, timed tests, or scoring keys.
 ---
 # Mock Exams
 

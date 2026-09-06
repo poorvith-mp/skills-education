@@ -1,7 +1,9 @@
 ---
 name: literature-review
+group: Research
 description: >-
   Synthesise many papers into themes, contradictions, methodological quality and open questions.
+  Use when synthesizing academic fields, thematic clusters, or research gaps.
 ---
 # Literature Review
 

@@ -1,7 +1,10 @@
 ---
 name: academic-project
+group: Teaching and planning
 description: >-
-  Plan a thesis, capstone or major assignment: milestones, supervisor checkpoints, deliverables and submission logistics.
+  Plan a thesis, capstone or major assignment: milestones, supervisor checkpoints, deliverables
+  and submission logistics. Use when managing capstone projects, dissertation timelines, or
+  deliverables.
 ---
 # Academic Project
 

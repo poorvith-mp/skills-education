@@ -1,7 +1,16 @@
 should_fire:
-  - "help with assessment design"
-  - "build the assessment"
-  - "run assessment-design workflow"
+  - 'design a comprehensive grading rubric with 4 performance levels for an essay assignment'
+  - 'create an assessment framework aligned with Bloom''s Taxonomy: recall through evaluation'
+  - 'design formative assessment checkpoints to gauge student understanding mid-semester'
+  - 'develop authentic performance-based assessments for a software engineering bootcamp'
+  - 'establish evaluation criteria and scoring weights for a capstone project presentation'
+  - 'design a peer-review assessment rubric that students can use to evaluate classmates'
+  - 'evaluate whether an exam''s questions demonstrate construct validity and fairness'
+  - 'structure diagnostic pre-assessments to identify student learning gaps at course start'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'generate specific multiple-choice questions and distractors'
+    expect: 'quizzes'
+  - prompt: 'build a full-length timed mock practice exam with answer key'
+    expect: 'mock-exams'
+  - prompt: 'create interactive spaced-repetition flashcards'
+    expect: 'flashcards'

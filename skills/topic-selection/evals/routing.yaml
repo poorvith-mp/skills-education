@@ -1,7 +1,16 @@
 should_fire:
-  - "help with topic selection"
-  - "turn a broad interest into a tractable research question or essay topic with defensible scope and available sources."
-  - "run topic-selection workflow"
+  - 'help me narrow down a broad interest in artificial intelligence into a feasible Master''s thesis topic'
+  - 'brainstorm viable research questions for an economics dissertation with accessible datasets'
+  - 'evaluate whether a proposed thesis topic is too broad, too narrow, or already saturated'
+  - 'formulate a sharp, researchable problem statement for a capstone engineering project'
+  - 'find under-researched intersections between cybersecurity and healthcare policy'
+  - 'ensure my chosen research question can be realistically answered within a 6-month timeframe'
+  - 'refine this vague essay topic into an analytical research inquiry with clear variables'
+  - 'identify unique angles to approach a commonly studied historical event'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'structure the outline and paragraph arguments for an approved essay topic'
+    expect: 'essay-structure'
+  - prompt: 'synthesize existing academic literature across a field'
+    expect: 'literature-review'
+  - prompt: 'plan milestones and deliverables for an academic capstone project'
+    expect: 'academic-project'

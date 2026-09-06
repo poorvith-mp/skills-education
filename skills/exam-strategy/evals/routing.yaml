@@ -1,7 +1,16 @@
 should_fire:
-  - "help with exam strategy"
-  - "pace the paper, triage questions by marks-per-minute, exploit the marking scheme, and decide when to guess."
-  - "run exam-strategy workflow"
+  - 'how to manage time and pacing effectively during a 3-hour standardized exam'
+  - 'learn systematic elimination techniques to rule out wrong multiple-choice answers'
+  - 'develop a strategy for handling difficult questions without getting bogged down'
+  - 'how should I allocate my time between multiple-choice and long-form essay questions'
+  - 'what is the optimal guessing strategy when an exam penalizes wrong answers vs when it doesn''t'
+  - 'techniques to manage exam anxiety and maintain focus during high-stakes tests'
+  - 'how to triage and skip questions on first pass to secure easy points early'
+  - 'develop an effective 24-hour pre-exam routine covering review, sleep, and nutrition'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build a multi-week daily study calendar and schedule'
+    expect: 'study-plan'
+  - prompt: 'take a full-length timed mock practice exam'
+    expect: 'mock-exams'
+  - prompt: 'generate practice flashcards for memorizing key facts'
+    expect: 'flashcards'

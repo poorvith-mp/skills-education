@@ -1,7 +1,16 @@
 should_fire:
-  - "help with literature review"
-  - "synthesise many papers into themes, contradictions, methodological quality and open questions."
-  - "run literature-review workflow"
+  - 'write a comprehensive literature review synthesizing recent research on LLM alignment'
+  - 'identify thematic clusters and debates across 25 studies on remote worker productivity'
+  - 'map the historical evolution of research regarding Alzheimer''s amyloid hypotheses'
+  - 'highlight unaddressed research gaps and conflicting empirical findings in this field'
+  - 'synthesize existing academic consensus on the psychological impacts of social media use'
+  - 'structure the related work section for a computer science conference submission'
+  - 'trace how theoretical models of market efficiency have evolved over the last 30 years'
+  - 'organize a multi-disciplinary literature matrix comparing methodologies and outcomes'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'summarize a single standalone academic research paper'
+    expect: 'paper-summary'
+  - prompt: 'design empirical research methodology and statistical sampling'
+    expect: 'research-methods'
+  - prompt: 'write an opinionated industry blog post for a marketing audience'
+    expect: 'article-writing'

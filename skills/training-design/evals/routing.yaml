@@ -1,7 +1,16 @@
 should_fire:
-  - "help with training design"
-  - "design enterprise training"
-  - "run training-design workflow"
+  - 'design an interactive 2-day technical training workshop for professional engineers'
+  - 'structure a corporate onboarding curriculum using adult learning principles (Andragogy)'
+  - 'create modular micro-learning units that employees can complete in 10 minutes'
+  - 'design hands-on lab exercises and real-world case studies for a cloud computing course'
+  - 'establish measurable learning objectives following the Bloom/Kirkpatrick training models'
+  - 'develop facilitator slide guides and participant workbooks for a corporate seminar'
+  - 'how to keep remote adult learners engaged during live virtual training sessions'
+  - 'measure business impact and training effectiveness using the Kirkpatrick 4-level model'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'plan personal individual self-study roadmaps and prerequisites'
+    expect: 'learning-roadmap'
+  - prompt: 'design formal academic university grading rubrics'
+    expect: 'assessment-design'
+  - prompt: 'structure 1-on-1 career mentorship check-ins'
+    expect: 'mentoring'

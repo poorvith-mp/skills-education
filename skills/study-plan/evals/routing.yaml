@@ -1,7 +1,16 @@
 should_fire:
-  - "help with study plan"
-  - "design the schedule"
-  - "run study-plan workflow"
+  - 'build a daily study schedule to prepare for my AWS Solutions Architect exam in 4 weeks'
+  - 'structure a realistic 15-hour weekly study calendar around a full-time job'
+  - 'design a Pomodoro-based study plan with spaced intervals and review sessions'
+  - 'how should I divide my remaining 2 weeks of study time across 5 exam topics'
+  - 'create an accountability tracking system to maintain consistent daily study habits'
+  - 'optimize study blocks to prevent mental burnout during intensive exam preparation'
+  - 'structure weekend intensive revision sessions covering difficult practice problems'
+  - 'rebalance my study schedule after falling 3 days behind my milestone goals'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'map out a high-level 6-month skill learning curriculum'
+    expect: 'learning-roadmap'
+  - prompt: 'generate spaced-repetition flashcards using Anki formats'
+    expect: 'flashcards'
+  - prompt: 'master test-taking tactics, timing, and elimination strategies'
+    expect: 'exam-strategy'

@@ -1,7 +1,9 @@
 ---
 name: research
+group: Research
 description: >-
-  Run the investigation properly: frame the question, build a source ladder, triangulate, track contradictions, stop at saturation, report with confidence.
+  Investigate properly: frame questions, build source ladders, triangulate, and report findings.
+  Use when investigating complex questions with primary sources.
 ---
 # Research
 

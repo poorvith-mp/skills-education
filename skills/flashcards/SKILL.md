@@ -1,7 +1,9 @@
 ---
 name: flashcards
+group: Learning
 description: >-
-  Create spaced-repetition cards using minimal-information framing and interleaved topics.
+  Create spaced-repetition cards using minimal-information framing and interleaved topics. Use
+  when generating Anki cards, cloze deletions, or spaced repetition decks.
 ---
 # Flashcards
 

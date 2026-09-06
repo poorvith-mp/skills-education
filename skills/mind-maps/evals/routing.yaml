@@ -1,7 +1,16 @@
 should_fire:
-  - "help with mind maps"
-  - "map a topic visually"
-  - "run mind-maps workflow"
+  - 'create a hierarchical mind map structuring the core concepts of operating systems'
+  - 'visualize the relationships between different machine learning paradigms in a tree structure'
+  - 'generate a Mermaid mind map diagram summarizing this chapter on microeconomics'
+  - 'structure a visual concept map showing how microservices, APIs, and databases connect'
+  - 'organize a brainstorming session''s messy notes into a structured conceptual hierarchy'
+  - 'create a visual breakdown of a complex legal framework with nested branches'
+  - 'map out the dependencies and sub-disciplines of computer graphics visually'
+  - 'synthesize a 40-page textbook chapter into a one-page hierarchical concept map'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'explain a single difficult concept with plain-English analogies'
+    expect: 'concept-explainer'
+  - prompt: 'create question-and-answer flashcards for memorization'
+    expect: 'flashcards'
+  - prompt: 'structure the outline and chapter architecture for a book'
+    expect: 'book-writing'

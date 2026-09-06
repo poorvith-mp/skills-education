@@ -1,7 +1,16 @@
 should_fire:
-  - "help with research methods"
-  - "design the study itself"
-  - "run research-methods workflow"
+  - 'design a quantitative experimental study with proper control groups and blinding'
+  - 'choose between qualitative grounded theory and phenomenological research methodologies'
+  - 'calculate required sample size and statistical power for a prospective cohort study'
+  - 'design a randomized controlled trial (RCT) protocol to evaluate a training intervention'
+  - 'establish data collection instruments and coding rubrics for qualitative thematic analysis'
+  - 'mitigate selection bias, confounding variables, and attrition in longitudinal research'
+  - 'design valid Likert-scale survey questions that minimize acquiescence bias'
+  - 'structure a mixed-methods research design combining surveys and in-depth interviews'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'conduct usability interviews on a digital software user interface'
+    expect: 'ux-research'
+  - prompt: 'run statistical A/B tests on website landing pages'
+    expect: 'experimentation'
+  - prompt: 'evaluate the credibility of an already published research source'
+    expect: 'source-evaluation'

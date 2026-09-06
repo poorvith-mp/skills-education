@@ -1,7 +1,9 @@
 ---
 name: training-design
+group: Teaching and planning
 description: >-
-  Design enterprise training: needs analysis, curriculum structure, blended delivery and evaluation.
+  Design enterprise training: needs analysis, curriculum structure, blended delivery and
+  evaluation. Use when developing corporate workshops, course modules, or adult learning.
 ---
 # Training Design
 

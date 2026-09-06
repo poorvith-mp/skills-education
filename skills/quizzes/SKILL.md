@@ -1,7 +1,9 @@
 ---
 name: quizzes
+group: Assessment
 description: >-
-  Generate scored practice quizzes from your own material, with an explanation for every wrong answer.
+  Generate scored practice quizzes from your own material, with an explanation for every wrong
+  answer. Use when authoring multiple-choice questions, plausible distractors, or trivia.
 ---
 # Quizzes
 

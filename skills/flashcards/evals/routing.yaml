@@ -1,7 +1,16 @@
 should_fire:
-  - "help with flashcards"
-  - "create spaced-repetition cards using minimal-information framing and interleaved topics."
-  - "run flashcards workflow"
+  - 'generate 30 Anki flashcards covering key terms from this biochemistry chapter'
+  - 'create cloze deletion flashcards for memorizing standard AWS service limits'
+  - 'format flashcards into CSV format ready for direct import into Anki or Quizlet'
+  - 'break down complex medical definitions into atomic, single-concept flashcards'
+  - 'write two-sided flashcards testing foreign language vocabulary and example sentences'
+  - 'convert these lecture notes into high-yield question-and-answer study cards'
+  - 'apply the minimum information principle to simplify these bloated flashcards'
+  - 'generate flashcards testing algorithmic time and space complexities'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'test my recall interactively by asking me quiz questions in chat'
+    expect: 'active-recall'
+  - prompt: 'generate a multi-question multiple-choice practice quiz'
+    expect: 'quizzes'
+  - prompt: 'create a structured daily study calendar and timetable'
+    expect: 'study-plan'

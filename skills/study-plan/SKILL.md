@@ -1,7 +1,9 @@
 ---
 name: study-plan
+group: Learning
 description: >-
-  Design the schedule: spaced repetition intervals, session length and weekly review cycles.
+  Design the schedule: spaced repetition intervals, session length and weekly review cycles. Use
+  when creating weekly study schedules, Pomodoro blocks, or exam prep.
 ---
 # Study Plan
 

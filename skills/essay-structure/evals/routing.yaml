@@ -1,7 +1,16 @@
 should_fire:
-  - "help with essay structure"
-  - "structure the essay"
-  - "run essay-structure workflow"
+  - 'structure an argumentative essay defending a strong, defensible thesis statement'
+  - 'create an outline with topic sentences and evidence for a 5-page history paper'
+  - 'ensure smooth paragraph transitions and logical flow across an academic essay'
+  - 'craft a counter-argument and rebuttal paragraph that strengthens my central thesis'
+  - 'structure an academic essay introduction: hook, context, and thesis statement'
+  - 'organize supporting evidence effectively using the Claim, Evidence, Reasoning (CER) model'
+  - 'write an insightful conclusion that synthesizes arguments without mere repetition'
+  - 'restructure a disorganized draft essay into a coherent, persuasive argumentative arc'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write a book-length manuscript chapter and narrative arc'
+    expect: 'book-writing'
+  - prompt: 'format academic citations and bibliography in APA style'
+    expect: 'citations'
+  - prompt: 'line-edit essay prose to eliminate repetitive words and tighten style'
+    expect: 'line-editing'

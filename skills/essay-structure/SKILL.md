@@ -1,7 +1,9 @@
 ---
 name: essay-structure
+group: Teaching and planning
 description: >-
-  Structure the essay: thesis, argument order, evidence placement, counterargument handling and conclusion.
+  Structure the essay: thesis, argument order, evidence placement, counterargument handling and
+  conclusion. Use when outlining argumentative essays, thesis statements, or paragraph flows.
 ---
 # Essay Structure
 

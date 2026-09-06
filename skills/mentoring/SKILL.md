@@ -1,7 +1,9 @@
 ---
 name: mentoring
+group: Learning
 description: >-
-  Run a mentoring conversation using Socratic questioning and the GROW model, asking rather than telling.
+  Run a mentoring conversation using Socratic questioning and the GROW model, asking rather than
+  telling. Use when structuring 1-on-1 mentorship, goal tracking, or career growth.
 ---
 # Mentoring
 

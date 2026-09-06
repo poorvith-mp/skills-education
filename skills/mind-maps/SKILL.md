@@ -1,7 +1,10 @@
 ---
 name: mind-maps
+group: Learning
 description: >-
-  Map a topic visually: central node, branches, labelled relationships between concepts, and where the blank spaces are.
+  Map a topic visually: central node, branches, labelled relationships between concepts, and where
+  the blank spaces are. Use when synthesizing knowledge into hierarchical mind maps or visual
+  diagrams.
 ---
 # Mind Maps
 

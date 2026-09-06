@@ -1,7 +1,16 @@
 should_fire:
-  - "help with research"
-  - "run the investigation properly"
-  - "run research workflow"
+  - 'investigate the current state of commercial solid-state battery manufacturing'
+  - 'gather defensible facts and primary sources on global helium supply shortages'
+  - 'research the technological trade-offs of microLED vs OLED displays with citations'
+  - 'triangulate findings across industry reports, patents, and scientific literature'
+  - 'conduct an objective factual investigation into the causes of a historical engineering failure'
+  - 'frame a rigorous research inquiry comparing three competing energy storage technologies'
+  - 'track contradictions across expert sources regarding microplastic toxicity thresholds'
+  - 'produce a well-sourced research briefing on the geopolitical semiconductor supply chain'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'evaluate market commercial trends for venture capital investments'
+    expect: 'market-trends'
+  - prompt: 'critically evaluate the methodological credibility of a single research study'
+    expect: 'source-evaluation'
+  - prompt: 'format citations according to APA or Chicago manual of style'
+    expect: 'citations'

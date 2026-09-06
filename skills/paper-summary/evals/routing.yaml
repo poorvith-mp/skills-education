@@ -1,7 +1,16 @@
 should_fire:
-  - "help with paper summary"
-  - "summarise a paper into methodology, findings, limitations, statistical strength and practical implications."
-  - "run paper-summary workflow"
+  - 'summarize the core findings, methodology, and limitations of this machine learning paper'
+  - 'extract the key contributions, dataset details, and benchmark results from this PDF'
+  - 'explain what novel architecture is proposed in this computer science paper'
+  - 'break down the mathematical formulation and assumptions in this economics paper'
+  - 'critique the sample size and experimental controls mentioned in this clinical trial paper'
+  - 'produce a 2-page executive summary of a 30-page academic research publication'
+  - 'summarize how this paper''s proposed method compares against state-of-the-art baselines'
+  - 'identify open questions and unaddressed edge cases highlighted in the paper''s discussion'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'synthesize 20 related academic papers into a literature review'
+    expect: 'literature-review'
+  - prompt: 'audit an ML model for bias, fairness, and reproducibility'
+    expect: 'model-audit'
+  - prompt: 'format academic bibliography citations in APA or IEEE style'
+    expect: 'citations'

@@ -1,7 +1,9 @@
 ---
 name: concept-explainer
+group: Learning
 description: >-
-  Explain a concept in layers — ELI5, then intermediate, then expert — with analogies and worked examples.
+  Explain a concept in layers — ELI5, then intermediate, then expert — with analogies and worked
+  examples. Use when explaining complex ideas with intuitive analogies, Feynman technique.
 ---
 # Concept Explainer
 

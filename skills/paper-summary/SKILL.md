@@ -1,5 +1,6 @@
 ---
 name: paper-summary
+last_reviewed: 2026-09-06
 group: Research
 description: Summarise a paper into methodology, findings, and limitations. For study design, see research-methods. Use when distilling academic papers into findings, methods, and limitations.
 ---

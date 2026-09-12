@@ -1,5 +1,6 @@
 ---
 name: concept-explainer
+last_reviewed: 2026-09-06
 group: Learning
 description: >-
   Explain a concept in layers — ELI5, then intermediate, then expert — with analogies and worked

@@ -1,5 +1,6 @@
 ---
 name: citations
+last_reviewed: 2026-09-06
 group: Research
 description: >-
   Format citations and bibliographies in APA, MLA, Chicago, Harvard and IEEE with matching in-text

@@ -1,5 +1,6 @@
 ---
 name: research-methods
+last_reviewed: 2026-09-06
 group: Research
 description: >-
   Design the study itself: question framing, method choice, sampling, controls and which

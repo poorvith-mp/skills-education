@@ -1,5 +1,6 @@
 ---
 name: topic-selection
+last_reviewed: 2026-09-06
 group: Teaching and planning
 description: >-
   Turn a broad interest into a tractable research question or essay topic with defensible scope

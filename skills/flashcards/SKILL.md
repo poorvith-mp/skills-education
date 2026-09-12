@@ -1,5 +1,6 @@
 ---
 name: flashcards
+last_reviewed: 2026-09-06
 group: Learning
 description: >-
   Create spaced-repetition cards using minimal-information framing and interleaved topics. Use

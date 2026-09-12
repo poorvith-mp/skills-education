@@ -1,5 +1,6 @@
 ---
 name: learning-roadmap
+last_reviewed: 2026-09-06
 group: Learning
 description: >-
   Build the roadmap: skill tree, milestone checkpoints, ordered reading with difficulty ratings,

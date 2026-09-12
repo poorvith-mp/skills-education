@@ -1,5 +1,6 @@
 ---
 name: mentoring
+last_reviewed: 2026-09-06
 group: Learning
 description: >-
   Run a mentoring conversation using Socratic questioning and the GROW model, asking rather than

@@ -1,5 +1,6 @@
 ---
 name: essay-structure
+last_reviewed: 2026-09-06
 group: Teaching and planning
 description: >-
   Structure the essay: thesis, argument order, evidence placement, counterargument handling and

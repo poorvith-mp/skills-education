@@ -1,5 +1,6 @@
 ---
 name: active-recall
+last_reviewed: 2026-09-06
 group: Learning
 description: >-
   Weave retrieval checks into dialogue: resurface earlier material unprompted and track decay. Use

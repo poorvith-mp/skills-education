@@ -1,5 +1,6 @@
 ---
 name: quizzes
+last_reviewed: 2026-09-06
 group: Assessment
 description: >-
   Generate scored practice quizzes from your own material, with an explanation for every wrong

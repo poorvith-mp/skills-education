@@ -1,5 +1,6 @@
 ---
 name: literature-review
+last_reviewed: 2026-09-06
 group: Research
 description: >-
   Synthesise many papers into themes, contradictions, methodological quality and open questions.

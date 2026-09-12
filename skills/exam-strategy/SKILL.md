@@ -1,5 +1,6 @@
 ---
 name: exam-strategy
+last_reviewed: 2026-09-06
 group: Assessment
 description: >-
   Pace the paper, triage questions by marks-per-minute, exploit the marking scheme, and decide

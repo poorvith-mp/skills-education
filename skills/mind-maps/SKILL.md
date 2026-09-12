@@ -1,5 +1,6 @@
 ---
 name: mind-maps
+last_reviewed: 2026-09-06
 group: Learning
 description: >-
   Map a topic visually: central node, branches, labelled relationships between concepts, and where

@@ -1,5 +1,6 @@
 ---
 name: training-design
+last_reviewed: 2026-09-06
 group: Teaching and planning
 description: >-
   Design enterprise training: needs analysis, curriculum structure, blended delivery and

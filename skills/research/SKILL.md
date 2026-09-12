@@ -1,5 +1,6 @@
 ---
 name: research
+last_reviewed: 2026-09-06
 group: Research
 description: >-
   Investigate properly: frame questions, build source ladders, triangulate, and report findings.

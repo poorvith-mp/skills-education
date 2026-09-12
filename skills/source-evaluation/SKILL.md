@@ -1,5 +1,6 @@
 ---
 name: source-evaluation
+last_reviewed: 2026-09-06
 group: Research
 description: >-
   Judge whether sources carry claims: primary vs secondary, funding, method quality, and

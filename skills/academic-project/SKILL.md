@@ -1,5 +1,6 @@
 ---
 name: academic-project
+last_reviewed: 2026-09-06
 group: Teaching and planning
 description: Plan a thesis or capstone: milestones, supervisor checkpoints, and submission logistics. For question scoping, see topic-selection. Use when managing capstone projects or dissertation timelines.
 ---

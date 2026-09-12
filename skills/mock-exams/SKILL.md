@@ -1,5 +1,6 @@
 ---
 name: mock-exams
+last_reviewed: 2026-09-06
 group: Assessment
 description: >-
   Build and sit a full-length timed paper under real conditions, then diagnose exactly where the

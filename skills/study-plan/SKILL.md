@@ -1,5 +1,6 @@
 ---
 name: study-plan
+last_reviewed: 2026-09-06
 group: Learning
 description: Design the schedule: spaced repetition intervals, session length and review cycles. For recall techniques, see active-recall. Use when creating weekly study schedules or exam prep.
 ---
